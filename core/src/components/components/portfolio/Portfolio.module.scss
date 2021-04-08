@@ -1,0 +1,45 @@
+.Portfolio {
+    .Skill {
+        width: 80%;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        .Sets {
+            font-size: 30px;
+            text-align: left;
+        }
+        .Progress {
+            width: 60%;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        
+    }
+
+    .Resume {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        img {
+            margin: 0 auto;
+            margin-left: 20px;
+            height: 20%;
+            width: 20%;
+            border: 2px solid darkgray;
+            border-radius:3%; 
+            overflow:hidden;
+        }
+        div {
+            margin-bottom: 10px;   
+        }
+    }
+
+    .Grid {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        .Work {
+            width: 30%;
+        }
+    }
+}

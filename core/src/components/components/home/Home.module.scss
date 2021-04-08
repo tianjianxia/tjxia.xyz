@@ -1,0 +1,45 @@
+.Home {
+    height: 100%;
+    div {
+        a {
+            text-decoration: black;
+            color: black;
+        }
+        
+    }
+
+    .Top {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Last {
+        margin-bottom: 100px;
+    }
+
+    .spec:hover {
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 33.3%, rgba(252,176,69,1) 66.6%, rgba(131,58,180,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text; /*截取背景区域为文字*/
+        color: transparent;
+        background-size: 300% 100%; /*扩大背景区域*/	
+        animation: text 4s infinite linear;
+    }
+
+    @keyframes spec{
+        0%  { background-position: 0 0;}
+        100% { background-position: -150% 0;}
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    
+    .Timeline {
+        margin: auto;
+        font-size: 25px;
+        height: 50%;
+        width: 50%;;
+    }
+}
